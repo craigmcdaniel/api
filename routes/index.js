@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'craig',
   password : '......',
-  database : 'api'
+  database : 'sampledb'
 });
 /* connection.connect()
 router.get('/cat', function(req, res, next) {
