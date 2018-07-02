@@ -14,9 +14,9 @@ router.get('/', function(req, res, next) {
 
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'ambivfgd_northwind',
-  password : 'northwinds..',
-  database : 'ambivfgd_northwinds'
+  user     : 'craig',
+  password : '......',
+  database : 'api'
 });
 /* connection.connect()
 router.get('/cat', function(req, res, next) {
